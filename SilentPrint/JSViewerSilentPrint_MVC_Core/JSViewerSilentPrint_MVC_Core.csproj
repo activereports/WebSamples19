@@ -27,7 +27,7 @@
     <None Include="wwwroot\jsViewer.min.js" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="19.0.0" />
+    <PackageReference Include="MESCIUS.ActiveReports.Aspnetcore.Viewer" Version="19.0.1" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
     <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
   </ItemGroup>

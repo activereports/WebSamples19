@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DS.Documents.Pdf" Version="8.0.1" />
+    <PackageReference Include="DS.Documents.Pdf" Version="8.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting.WindowsServices" Version="6.0.22" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
     <PackageReference Include="System.Drawing.Common" Version="6.0.0" />

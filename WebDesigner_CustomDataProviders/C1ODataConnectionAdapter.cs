@@ -87,22 +87,22 @@ namespace WebDesignerCustomDataProviders
             return builder.ToString();
         }
 
-        public void SetParameters(DbCommand command, IEnumerable<DbParameter> queryParameters)
+        public void SetParameters(DbCommand command, IReadOnlyList<CommandParameter> commandParameters)
         {
             try
             {
                 command.Parameters.Clear();
 
-                foreach (var queryParameter in queryParameters)
+                foreach (var queryParameter in commandParameters)
                 {
                     if (queryParameter.Value is object[] multivalue)
                     {
-                        SetMultiValueParameter(command, queryParameter.ParameterName, multivalue);
+                        SetMultiValueParameter(command, queryParameter.Name, multivalue);
                         continue;
                     }
 
                     var param = command.CreateParameter();
-                    param.ParameterName = queryParameter.ParameterName;
+                    param.ParameterName = queryParameter.Name;
                     param.Value = queryParameter.Value ?? DBNull.Value;
                     command.Parameters.Add(param);
                 }

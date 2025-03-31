@@ -14,6 +14,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <title>MESCIUS ActiveReports WebViewer Control</title>
         <link rel="stylesheet" type="text/css" href="CSS/default.css"/>
         <link rel="stylesheet" type="text/css" href="CSS/tab.css" />

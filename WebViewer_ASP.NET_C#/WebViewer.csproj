@@ -59,20 +59,20 @@
     <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>packages\DocumentFormat.OpenXml.Framework.3.2.0\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="DS.Documents.DX.Windows, Version=8.0.1.0, Culture=neutral, PublicKeyToken=d55d733d2bfd5065, processorArchitecture=MSIL">
-      <HintPath>packages\DS.Documents.DX.Windows.8.0.1\lib\net462\DS.Documents.DX.Windows.dll</HintPath>
+    <Reference Include="DS.Documents.DX.Windows, Version=8.0.4.0, Culture=neutral, PublicKeyToken=d55d733d2bfd5065, processorArchitecture=MSIL">
+      <HintPath>packages\DS.Documents.DX.Windows.8.0.4\lib\net462\DS.Documents.DX.Windows.dll</HintPath>
     </Reference>
-    <Reference Include="DS.Documents.Imaging, Version=8.0.1.0, Culture=neutral, PublicKeyToken=d55d733d2bfd5065, processorArchitecture=MSIL">
-      <HintPath>packages\DS.Documents.Imaging.8.0.1\lib\net462\DS.Documents.Imaging.dll</HintPath>
+    <Reference Include="DS.Documents.Imaging, Version=8.0.4.0, Culture=neutral, PublicKeyToken=d55d733d2bfd5065, processorArchitecture=MSIL">
+      <HintPath>packages\DS.Documents.Imaging.8.0.4\lib\net462\DS.Documents.Imaging.dll</HintPath>
     </Reference>
-    <Reference Include="DS.Documents.Imaging.Windows, Version=8.0.1.0, Culture=neutral, PublicKeyToken=d55d733d2bfd5065, processorArchitecture=MSIL">
-      <HintPath>packages\DS.Documents.Imaging.Windows.8.0.1\lib\net462\DS.Documents.Imaging.Windows.dll</HintPath>
+    <Reference Include="DS.Documents.Imaging.Windows, Version=8.0.4.0, Culture=neutral, PublicKeyToken=d55d733d2bfd5065, processorArchitecture=MSIL">
+      <HintPath>packages\DS.Documents.Imaging.Windows.8.0.4\lib\net462\DS.Documents.Imaging.Windows.dll</HintPath>
     </Reference>
-    <Reference Include="DS.Documents.Pdf, Version=8.0.1.0, Culture=neutral, PublicKeyToken=d55d733d2bfd5065, processorArchitecture=MSIL">
-      <HintPath>packages\DS.Documents.Pdf.8.0.1\lib\net462\DS.Documents.Pdf.dll</HintPath>
+    <Reference Include="DS.Documents.Pdf, Version=8.0.4.0, Culture=neutral, PublicKeyToken=d55d733d2bfd5065, processorArchitecture=MSIL">
+      <HintPath>packages\DS.Documents.Pdf.8.0.4\lib\net462\DS.Documents.Pdf.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.19.0.0\lib\net472\MESCIUS.ActiveReports.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.19.0.1\lib\net472\MESCIUS.ActiveReports.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Chart, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
       <HintPath>packages\MESCIUS.ActiveReports.Chart.19.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Chart.dll</HintPath>
@@ -80,98 +80,98 @@
     <Reference Include="MESCIUS.ActiveReports.Chart.Win, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
       <HintPath>packages\MESCIUS.ActiveReports.Chart.Win.19.0.0\lib\net472\MESCIUS.ActiveReports.Chart.Win.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Data.DataEngine, Version=5.0.0.0, Culture=neutral, PublicKeyToken=0b5e1563d2869208, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Data.DataEngine.5.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Data.DataEngine.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Data.DataEngine, Version=5.0.1.0, Culture=neutral, PublicKeyToken=0b5e1563d2869208, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Data.DataEngine.5.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Data.DataEngine.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Data.ExpressionInfo, Version=5.0.0.0, Culture=neutral, PublicKeyToken=0b5e1563d2869208, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Data.ExpressionInfo.5.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Data.ExpressionInfo.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Data.ExpressionInfo, Version=5.0.1.0, Culture=neutral, PublicKeyToken=0b5e1563d2869208, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Data.ExpressionInfo.5.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Data.ExpressionInfo.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Data.VBFunctionLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=0b5e1563d2869208, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Data.VBFunctionLib.5.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Data.VBFunctionLib.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Data.VBFunctionLib, Version=5.0.1.0, Culture=neutral, PublicKeyToken=0b5e1563d2869208, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Data.VBFunctionLib.5.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Data.VBFunctionLib.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Core.DataProviders, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
       <HintPath>packages\MESCIUS.ActiveReports.Core.DataProviders.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.DataProviders.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Document, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.5.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Document.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Document, Version=5.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.5.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Document.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Document.Drawing.Gc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.Drawing.Gc.5.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Document.Drawing.Gc.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Document.Drawing.Gc, Version=5.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.Drawing.Gc.5.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Document.Drawing.Gc.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Document.Drawing.Gdi, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.Drawing.Gdi.5.0.0\lib\net472\MESCIUS.ActiveReports.Core.Document.Drawing.Gdi.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Document.Drawing.Gdi, Version=5.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Document.Drawing.Gdi.5.0.1\lib\net472\MESCIUS.ActiveReports.Core.Document.Drawing.Gdi.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Drawing.Gc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Drawing.Gc.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Drawing.Gc.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Drawing.Gc, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Drawing.Gc.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Drawing.Gc.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Drawing.Gdi, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Drawing.Gdi.4.0.0\lib\net472\MESCIUS.ActiveReports.Core.Drawing.Gdi.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Drawing.Gdi, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Drawing.Gdi.4.0.1\lib\net472\MESCIUS.ActiveReports.Core.Drawing.Gdi.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Export.Excel.Page, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Excel.Page.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Excel.Page.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Export.Excel.Page, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Excel.Page.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Excel.Page.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Export.Html.Page, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Html.Page.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Html.Page.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Export.Html.Page, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Html.Page.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Html.Page.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Export.Image.Page, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Image.Page.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Image.Page.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Export.Image.Page, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Image.Page.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Image.Page.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Export.Pdf.Page, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Pdf.Page.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Pdf.Page.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Export.Pdf.Page, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Pdf.Page.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Pdf.Page.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Export.Pdf.Section, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Pdf.Section.5.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Pdf.Section.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Export.Pdf.Section, Version=5.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Pdf.Section.5.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Pdf.Section.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Export.Svg.Page, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Svg.Page.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Svg.Page.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Export.Svg.Page, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Svg.Page.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Svg.Page.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Export.Text.Page, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Text.Page.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Text.Page.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Export.Text.Page, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Text.Page.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Text.Page.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Export.Tiff.Section, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Tiff.Section.5.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Tiff.Section.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Export.Tiff.Section, Version=5.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Tiff.Section.5.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Tiff.Section.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Export.Word.Page, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Word.Page.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Word.Page.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Export.Word.Page, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Export.Word.Page.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Export.Word.Page.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Rdl, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Rdl.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Rdl.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Rdl, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Rdl.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Rdl.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Rendering, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Rendering.4.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Rendering.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Rendering, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Rendering.4.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.Rendering.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.ReportItems.Chart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.ReportItems.Chart.1.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Core.ReportItems.Chart.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.ReportItems.Chart, Version=1.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.ReportItems.Chart.1.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Core.ReportItems.Chart.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Core.Scripting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Core.Scripting.4.0.0\lib\net472\MESCIUS.ActiveReports.Core.Scripting.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Core.Scripting, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Core.Scripting.4.0.1\lib\net472\MESCIUS.ActiveReports.Core.Scripting.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Design.Win, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Design.Win.19.0.0\lib\net472\MESCIUS.ActiveReports.Design.Win.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Design.Win, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Design.Win.19.0.1\lib\net472\MESCIUS.ActiveReports.Design.Win.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Export.Excel, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Excel.19.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Excel.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Export.Excel, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Excel.19.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Excel.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Export.Html, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Html.19.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Html.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Export.Html, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Html.19.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Html.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Export.Image, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Image.19.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Image.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Export.Image, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Image.19.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Image.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Export.Image.Win, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Image.19.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Image.Win.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Image.19.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Image.Win.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Export.Pdf, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Pdf.19.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Pdf.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Export.Pdf, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Pdf.19.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Pdf.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.Export.Pdf.Win, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Pdf.19.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Pdf.Win.dll</HintPath>
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Pdf.19.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Pdf.Win.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Export.Word, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Word.19.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Word.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Export.Word, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Word.19.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Word.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Export.Xml, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Export.Xml.19.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Xml.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Export.Xml, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Export.Xml.19.0.1\lib\netstandard2.0\MESCIUS.ActiveReports.Export.Xml.dll</HintPath>
     </Reference>
     <Reference Include="MESCIUS.ActiveReports.QueryDesigner, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
       <HintPath>packages\MESCIUS.ActiveReports.QueryDesigner.2.0.0\lib\net472\MESCIUS.ActiveReports.QueryDesigner.dll</HintPath>
@@ -179,23 +179,23 @@
     <Reference Include="MESCIUS.ActiveReports.SpreadBuilder, Version=3.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
       <HintPath>packages\MESCIUS.ActiveReports.SpreadBuilder.3.0.0\lib\netstandard2.0\MESCIUS.ActiveReports.SpreadBuilder.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Viewer.Common, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Viewer.Common.19.0.0\lib\net472\MESCIUS.ActiveReports.Viewer.Common.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Viewer.Common, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Viewer.Common.19.0.1\lib\net472\MESCIUS.ActiveReports.Viewer.Common.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Viewer.Win, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Viewer.Win.19.0.0\lib\net472\MESCIUS.ActiveReports.Viewer.Win.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Viewer.Win, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Viewer.Win.19.0.1\lib\net472\MESCIUS.ActiveReports.Viewer.Win.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Web, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Web.19.0.0\lib\net472\MESCIUS.ActiveReports.Web.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Web, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Web.19.0.1\lib\net472\MESCIUS.ActiveReports.Web.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Web.Design, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Web.Design.VS2022.19.0.0\lib\net472\MESCIUS.ActiveReports.Web.Design.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Web.Design, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Web.Design.VS2022.19.0.1\lib\net472\MESCIUS.ActiveReports.Web.Design.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Web.Viewer, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.Web.Viewer.19.0.0\lib\net472\MESCIUS.ActiveReports.Web.Viewer.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Web.Viewer, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.Web.Viewer.19.0.1\lib\net472\MESCIUS.ActiveReports.Web.Viewer.dll</HintPath>
     </Reference>
-    <Reference Include="MESCIUS.ActiveReports.Win, Version=19.0.0.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
-      <HintPath>packages\MESCIUS.ActiveReports.19.0.0\lib\net472\MESCIUS.ActiveReports.Win.dll</HintPath>
+    <Reference Include="MESCIUS.ActiveReports.Win, Version=19.0.1.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <HintPath>packages\MESCIUS.ActiveReports.19.0.1\lib\net472\MESCIUS.ActiveReports.Win.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>

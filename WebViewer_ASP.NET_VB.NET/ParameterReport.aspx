@@ -16,6 +16,7 @@
 <head runat="server">
     <link rel="stylesheet" type="text/css" href="CSS/default.css"/>
     <title>MESCIUS ActiveReports Parameterized Report</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
