@@ -1,0 +1,29 @@
+﻿@page "/"
+@using BlazorViewer_CustomStore.Data;
+@inject ReportProvider ReportProvider
+
+<div class="main">
+    <ReportList ReportsList="@_reportsList" CurrentReport="@_currentReport" OnClickCallback="OnClick"></ReportList>
+    <div id="viewerContainer">
+        <ReportViewer @ref="_viewer" ReportName="@_currentReport"/>
+    </div>
+</div>
+
+@code{
+
+    private ReportViewer _viewer;
+    private List<string> _reportsList;
+    private string _currentReport = null;
+
+    protected override void OnInitialized()
+    {
+        _reportsList = ReportProvider.GetReports().ToList();
+        _currentReport = _reportsList.FirstOrDefault();
+    }
+
+    private async void OnClick(string res)
+    {
+        _currentReport = res;
+        await _viewer.OpenReport(_currentReport);
+    }
+}

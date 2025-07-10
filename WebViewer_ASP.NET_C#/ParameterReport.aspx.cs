@@ -25,18 +25,20 @@ namespace GrapeCity.ActiveReports.Samples.Web
                 xtr = new System.Xml.XmlTextReader(Server.MapPath("~") + @"\RpxReports\Params.rpx");
             _rpt.LoadLayout(xtr);
             xtr.Close();
-            // Set parameter's value
-            if (!string.IsNullOrEmpty(Request.QueryString["date"]))
-            {
-                var paramDate = DateTime.ParseExact(Request.QueryString["date"], "MM-dd-yyyy", CultureInfo.InvariantCulture);
-                Calendar1.SelectedDate = paramDate;
-                _rpt.Parameters[0].DefaultValue = paramDate.ToString("MM/dd/yyyy", CultureInfo.InvariantCulture);
-            }
             if (!IsPostBack)
             {
                 // The default is set to HTML viewer.
                 DateTime InitDate = new DateTime(1994, 8, 2);
                 Calendar1.VisibleDate = InitDate;
+            }
+
+            // Set parameter's value
+            if (!string.IsNullOrEmpty(Request.QueryString["date"]))
+            {
+                var paramDate = DateTime.ParseExact(Request.QueryString["date"], "MM-dd-yyyy", CultureInfo.InvariantCulture);
+                Calendar1.SelectedDate = paramDate;
+                Calendar1.VisibleDate = paramDate;
+                _rpt.Parameters[0].DefaultValue = paramDate.ToString("MM/dd/yyyy", CultureInfo.InvariantCulture);
             }
             _rpt.Restart();
             WebViewer.Report = _rpt;

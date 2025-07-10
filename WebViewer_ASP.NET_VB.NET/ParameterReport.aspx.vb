@@ -19,12 +19,6 @@ Public Class ParameterReport
         Dim xtr As New System.Xml.XmlTextReader(Server.MapPath("~") + "\RpxReports\Params.rpx")
         _rpt.LoadLayout(xtr)
         xtr.Close()
-        ' Set parameter's value
-        If Not String.IsNullOrEmpty(Request.QueryString("date")) Then
-            Dim paramDate As DateTime = DateTime.ParseExact(Request.QueryString("date"), "MM-dd-yyyy", CultureInfo.InvariantCulture)
-            Calendar1.SelectedDate = paramDate
-            _rpt.Parameters(0).DefaultValue = paramDate.ToString("MM/dd/yyyy", CultureInfo.InvariantCulture)
-        End If
         If Not IsPostBack Then
 
             ' The default is set to HTML viewer.
@@ -32,6 +26,14 @@ Public Class ParameterReport
             Calendar1.VisibleDate = initDate
 
         End If
+        ' Set parameter's value
+        If Not String.IsNullOrEmpty(Request.QueryString("date")) Then
+            Dim paramDate As DateTime = DateTime.ParseExact(Request.QueryString("date"), "MM-dd-yyyy", CultureInfo.InvariantCulture)
+            Calendar1.SelectedDate = paramDate
+            Calendar1.VisibleDate = paramDate
+            _rpt.Parameters(0).DefaultValue = paramDate.ToString("MM/dd/yyyy", CultureInfo.InvariantCulture)
+        End If
+
         _rpt.Restart()
         WebViewer.Report = _rpt
         Session("Report") = _rpt
