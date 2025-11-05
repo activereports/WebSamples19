@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://cdn.grapecity.com/ActiveReports/reporting/2023/08/reportdefinition">
+	<Name>dashboard1</Name>
+	<ReportSections>
+		<ReportSection Name="Section1">
+			<Body>
+				<Height>6in</Height>
+				<ReportItems>
+					<Textbox Name="TextBox1">
+						<Top>1.2894in</Top>
+						<Left>2.5116in</Left>
+						<Width>1in</Width>
+						<Height>0.25in</Height>
+						<Style>
+							<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+							<Color>=Theme.Colors!Dark1</Color>
+							<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+							<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+							<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+							<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+							<PaddingBottom>2pt</PaddingBottom>
+							<PaddingLeft>2pt</PaddingLeft>
+							<PaddingRight>2pt</PaddingRight>
+							<PaddingTop>2pt</PaddingTop>
+						</Style>
+						<CanGrow>true</CanGrow>
+						<Custom><ReportStyle>
+	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
+	<StyleName>Dark 1 Major</StyleName>
+</ReportStyle></Custom>
+						<Value />
+					</Textbox>
+					<CheckBox Name="CheckBox1">
+						<Custom><ReportStyle>
+	<StyleId>76d94bac-8df2-4ed2-93b9-28e3b2aebadc</StyleId>
+	<StyleName>Dark 1 Major</StyleName>
+</ReportStyle></Custom>
+						<Top>3.2917in</Top>
+						<Left>2.5in</Left>
+						<Width>1in</Width>
+						<Height>0.25in</Height>
+						<Style>
+							<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
+							<Color>=Theme.Colors!Dark1</Color>
+							<FontFamily>=Theme.Fonts!MajorFont.Family</FontFamily>
+							<FontSize>=Theme.Fonts!MajorFont.Size</FontSize>
+							<FontStyle>=Theme.Fonts!MajorFont.Style</FontStyle>
+							<FontWeight>=Theme.Fonts!MajorFont.Weight</FontWeight>
+							<PaddingBottom>2pt</PaddingBottom>
+							<PaddingLeft>2pt</PaddingLeft>
+							<PaddingRight>2pt</PaddingRight>
+							<PaddingTop>2pt</PaddingTop>
+						</Style>
+						<ZIndex>1</ZIndex>
+						<Text />
+					</CheckBox>
+				</ReportItems>
+			</Body>
+			<Page>
+				<ColumnSpacing>0in</ColumnSpacing>
+				<PaperOrientation>Portrait</PaperOrientation>
+				<PageHeight>11in</PageHeight>
+				<PageWidth>8.5in</PageWidth>
+				<TopMargin>0in</TopMargin>
+				<BottomMargin>0in</BottomMargin>
+				<LeftMargin>0in</LeftMargin>
+				<RightMargin>0in</RightMargin>
+			</Page>
+			<Width>10in</Width>
+		</ReportSection>
+	</ReportSections>
+	<DataElementName>Dashboard</DataElementName>
+	<CustomProperties>
+		<CustomProperty>
+			<Name>ViewerType</Name>
+			<Value>Dashboard</Value>
+		</CustomProperty>
+		<CustomProperty>
+			<Name>DisplayType</Name>
+			<Value>Page</Value>
+		</CustomProperty>
+		<CustomProperty>
+			<Name>SizeType</Name>
+			<Value>Default</Value>
+		</CustomProperty>
+		<CustomProperty>
+			<Name>CollapseWhiteSpace</Name>
+			<Value>True</Value>
+		</CustomProperty>
+	</CustomProperties>
+	<ReportThemes>
+		<ThemeUri>Cordial.default.rdlx-theme</ThemeUri>
+	</ReportThemes>
+</Report>

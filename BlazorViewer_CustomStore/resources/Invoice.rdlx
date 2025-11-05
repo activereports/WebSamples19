@@ -923,7 +923,7 @@
   <DataSources>
     <DataSource Name="NWIND">
       <ConnectionProperties>
-        <ConnectString>Path=Invoice.csv;Locale=en-US;TextQualifier=";ColumnsSeparator=,;RowsSeparator=\r\n;HasHeaders=True</ConnectString>
+        <ConnectString>Path=Invoice.csv;Locale=en-US;TextQualifier=";ColumnsSeparator=,;HasHeaders=True</ConnectString>
         <DataProvider>CSV</DataProvider>
       </ConnectionProperties>
     </DataSource>

@@ -75,7 +75,7 @@
   </Sections>
   <ReportComponentTray />
   <DataSources>
-    <CsvDataSource ConnectionString="path=Invoice.csv;locale=ru-RU;textqualifier=&quot;;columnsseparator=,;rowsseparator=\r\n;columns=ShipName,ShipAddress,ShipCity,ShipRegion,ShipPostalCode,ShipCountry,CustomerID,Customers.CompanyName,Address,City,Region,PostalCode,Country,Salesperson,OrderID,OrderDate(DateTime),RequiredDate(DateTime),ShippedDate(DateTime),Shippers.CompanyName,ProductID,ProductName,UnitPrice,Quantity,Discount,ExtendedPrice,Freight;hasheaders=True" />
+    <CsvDataSource ConnectionString="path=Invoice.csv;locale=ru-RU;textqualifier=&quot;;columnsseparator=,;columns=ShipName,ShipAddress,ShipCity,ShipRegion,ShipPostalCode,ShipCountry,CustomerID,Customers.CompanyName,Address,City,Region,PostalCode,Country,Salesperson,OrderID,OrderDate(DateTime),RequiredDate(DateTime),ShippedDate(DateTime),Shippers.CompanyName,ProductID,ProductName,UnitPrice,Quantity,Discount,ExtendedPrice,Freight;hasheaders=True" />
   </DataSources>
   <PageSettings />
   <Parameters />

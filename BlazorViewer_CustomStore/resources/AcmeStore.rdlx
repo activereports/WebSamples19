@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Report xmlns="http://cdn.grapecity.com/ActiveReports/reporting/2022/01/reportdefinition">
+﻿<Report xmlns="http://cdn.grapecity.com/ActiveReports/reporting/2023/08/reportdefinition">
 	<Author>Maxim Vakhrushev</Author>
 	<Name>AcmeStore.rdlx</Name>
 	<ReportSections>
@@ -8,1714 +7,1379 @@
 				<ColumnSpacing>0cm</ColumnSpacing>
 				<Height>27.6cm</Height>
 				<ReportItems>
-					<DVChart Name="CategorySales">
-						<DataSetName>FilteredOrders</DataSetName>
-						<Top>0.8cm</Top>
+					<Chart version="1.1.1.0" Name="CategorySales" xmlns="http://cdn.grapecity.com/ActiveReports/reporting/ReportItems/Chart">
 						<Left>24.6cm</Left>
-						<Width>16.8cm</Width>
 						<Height>12cm</Height>
+						<Top>0.8cm</Top>
+						<Visibility>
+							<Hidden>False</Hidden>
+						</Visibility>
+						<Width>16.8cm</Width>
+						<ZIndex>2</ZIndex>
+						<DataElementName>CategorySales</DataElementName>
 						<Style>
-							<FontSize>8pt</FontSize>
 							<Border>
 								<Style>Solid</Style>
 								<Color>#e4e4e4</Color>
 							</Border>
+							<FontSize>8pt</FontSize>
 						</Style>
-						<ZIndex>2</ZIndex>
-						<DisplayTypeSelector>false</DisplayTypeSelector>
+						<DataSetName>FilteredOrders</DataSetName>
+						<Palette>Office2010</Palette>
 						<Header>
 							<Style>
 								<BackgroundColor>#f1f1f1</BackgroundColor>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>2pt</PaddingBottom>
 								<PaddingLeft>0.1in</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontFamily>Lucida Sans</FontFamily>
+								<FontSize>16pt</FontSize>
+								<FontWeight>Light</FontWeight>
+								<Color>#551e5f</Color>
 							</Style>
-							<Text>
-								<Style>
-									<Color>#551e5f</Color>
-									<FontFamily>Lucida Sans</FontFamily>
-									<FontSize>16pt</FontSize>
-									<FontWeight>300</FontWeight>
-								</Style>
-							</Text>
 							<Title>Sales by Product Category</Title>
 							<Height>0.08</Height>
 						</Header>
 						<Footer>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>4pt</PaddingBottom>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontSize>8pt</FontSize>
 							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
 						</Footer>
-						<Bar>
-							<TopWidth>0.55</TopWidth>
-							<BottomWidth>0.55</BottomWidth>
-							<Width>1</Width>
-						</Bar>
 						<PlotArea>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>2pt</PaddingBottom>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontSize>8pt</FontSize>
 							</Style>
 							<Axes>
 								<Axis>
-									<AxisLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-												<Color>DarkGray</Color>
-											</Border>
-										</Style>
-									</AxisLine>
 									<Format>f</Format>
 									<LabelAngle>50</LabelAngle>
-									<Labels>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<Visible>false</Visible>
-									</Labels>
-									<MajorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-										<Visible>true</Visible>
-									</MajorGrid>
-									<MinorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MinorGrid>
-									<MajorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>4pt</Size>
-									</MajorTicks>
-									<MinorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>2pt</Size>
-									</MinorTicks>
+									<LabelStyle>
+										<FontSize>8pt</FontSize>
+									</LabelStyle>
+									<Labels>false</Labels>
+									<LineStyle>
+										<Border>
+											<Style>Solid</Style>
+											<Color>DarkGray</Color>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</LineStyle>
+									<LogBase>10</LogBase>
+									<MajorGrid>true</MajorGrid>
+									<MajorGridStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorGridStyle>
+									<MajorTickSize>4pt</MajorTickSize>
+									<MajorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MajorTickStyle>
+									<MajorUnit>=""</MajorUnit>
+									<MinorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MinorGridStyle>
+									<MinorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MinorTickStyle>
+									<MinorTickSize>2pt</MinorTickSize>
+									<MinorUnit>=""</MinorUnit>
 									<OverlappingLabels>Show</OverlappingLabels>
 									<Plots>
 										<Plot>Plot1</Plot>
 									</Plots>
 									<Scale>Percentage</Scale>
-									<Style>
+									<TitleStyle>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
 										<FontSize>8pt</FontSize>
-									</Style>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<PaddingBottom>2pt</PaddingBottom>
-											<PaddingLeft>2pt</PaddingLeft>
-											<PaddingRight>2pt</PaddingRight>
-											<PaddingTop>2pt</PaddingTop>
-										</Style>
-									</Title>
+									</TitleStyle>
 									<Type>Y</Type>
-									<DateMode>Default</DateMode>
 								</Axis>
 							</Axes>
-							<Legends>
-								<Legend>
-									<Style>
-										<FontSize>8pt</FontSize>
-										<PaddingRight>2pt</PaddingRight>
-										<Border>
-											<Style>None</Style>
-										</Border>
-									</Style>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Title>
-									<Text>
-										<Style>
-											<FontFamily>Nirmala UI</FontFamily>
-											<FontSize>11pt</FontSize>
-										</Style>
-									</Text>
-									<Type>Color</Type>
-								</Legend>
-							</Legends>
 						</PlotArea>
-						<Legend>
-							<Style>
-								<FontSize>8pt</FontSize>
-								<PaddingBottom>2pt</PaddingBottom>
-								<PaddingLeft>2pt</PaddingLeft>
-								<PaddingRight>2pt</PaddingRight>
-								<PaddingTop>2pt</PaddingTop>
-							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
-							<Title>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Title>
-						</Legend>
-						<Palette>Office2010</Palette>
 						<Plots>
-							<Plot>
-								<Type>Bar</Type>
-								<Name>Plot1</Name>
-								<PlotChartType>Pie</PlotChartType>
-								<PlotChartSubtype>Stacked</PlotChartSubtype>
+							<Plot Name="Plot1">
+								<Type>Pie</Type>
+								<DataCollectionName>Plot_Collection</DataCollectionName>
+								<DataElementName>Plot</DataElementName>
 								<Config>
-									<BarLineStyle>
-										<Style>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</BarLineStyle>
+									<OverlappingLabels>Show</OverlappingLabels>
+									<Bar>
+										<BottomWidth>0.55</BottomWidth>
+										<TopWidth>0.55</TopWidth>
+										<Width>1</Width>
+										<NeckHeight>1</NeckHeight>
+										<Overlap>0</Overlap>
+									</Bar>
 									<ClippingMode>None</ClippingMode>
 									<ShowNulls>Zeros</ShowNulls>
 									<AxisMode>Radial</AxisMode>
 									<InnerRadius>0.3</InnerRadius>
-									<Bar />
-									<Style>
-										<FontSize>8pt</FontSize>
-										<Border>
-											<Style>Solid</Style>
-											<Color>LightGray</Color>
-											<Width>1pt</Width>
-										</Border>
-									</Style>
-									<Symbols>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>None</Style>
-												<Width>1pt</Width>
-											</Border>
-										</Style>
-									</Symbols>
-									<Text>
-										<ConnectingLine>
+									<SeriesArrangement>Stack</SeriesArrangement>
+								</Config>
+								<SeriesGroupings>
+									<SeriesGrouping>
+										<Grouping Name="Plot1_product_category_Group">
+											<GroupExpressions>
+												<GroupExpression>=Fields!product_category.Value</GroupExpression>
+											</GroupExpressions>
+											<DataCollectionName>SeriesGrouping_Collection</DataCollectionName>
+											<DataElementName>SeriesGrouping</DataElementName>
+										</Grouping>
+									</SeriesGrouping>
+								</SeriesGroupings>
+								<DataSeries>
+									<SeriesItem>
+										<Name>product_item</Name>
+										<Values>
+											<DataValue>
+												<Value>=Count(Fields!product_item.Value)</Value>
+												<Caption>product_item</Caption>
+											</DataValue>
+										</Values>
+										<Label>
+											<Style>
+												<BackgroundColor>White</BackgroundColor>
+												<Border>
+													<Style>Solid</Style>
+													<Color>DimGray</Color>
+												</Border>
+												<FontFamily>Dubai</FontFamily>
+												<FontSize>9pt</FontSize>
+												<Format>0</Format>
+											</Style>
+											<TextPosition>Center</TextPosition>
+											<Offset>10</Offset>
+											<Value>=Count(Fields!product_item.Value)</Value>
+										</Label>
+										<Marker>
 											<Style>
 												<FontSize>8pt</FontSize>
 											</Style>
-										</ConnectingLine>
-										<Offset>10</Offset>
-										<OverlappingLabels>Show</OverlappingLabels>
-										<TextPosition>Center</TextPosition>
-										<Template>{valueField.value:0}</Template>
+										</Marker>
 										<Style>
-											<BackgroundColor>White</BackgroundColor>
-											<FontFamily>Dubai</FontFamily>
-											<FontSize>9pt</FontSize>
+											<BackgroundColor>=""</BackgroundColor>
 											<Border>
 												<Style>Solid</Style>
-												<Color>DimGray</Color>
+												<Color>LightGray</Color>
 											</Border>
 										</Style>
-									</Text>
-									<Tooltip />
-								</Config>
-								<Encodings>
-									<Values>
-										<Value>
-											<Field fieldType="Simple">
-												<Value>
-													<FieldItem>=Fields!product_item.Value</FieldItem>
-												</Value>
-											</Field>
-											<Aggregate>Count</Aggregate>
-										</Value>
-									</Values>
-									<Details>
-										<Detail>
-											<Field>
-												<Value>
-													<FieldItem>=Fields!product_category.Value</FieldItem>
-												</Value>
-											</Field>
-											<Group>Stack</Group>
-											<SortingField>=""</SortingField>
-										</Detail>
-									</Details>
-									<Category>
-										<Field>
-											<Value />
-										</Field>
-										<SortingField>=""</SortingField>
-									</Category>
-									<Color>
-										<Field>
-											<Value>
-												<FieldItem>=Fields!product_category.Value</FieldItem>
-											</Value>
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Color>
-									<Shape>
-										<Field>
-											<Value />
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Shape>
-									<Size>
-										<Field>
-											<Value />
-										</Field>
-										<Aggregate>None</Aggregate>
-									</Size>
-								</Encodings>
+										<DataElementOutput>Auto</DataElementOutput>
+									</SeriesItem>
+								</DataSeries>
+								<ColorSeries>
+									<Style>
+										<PaddingRight>2pt</PaddingRight>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontFamily>Nirmala UI</FontFamily>
+										<FontSize>11pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<Title />
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>SeriesGroups</Mode>
+								</ColorSeries>
+								<SizeSeries>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<RangeOptions />
+									<Mode>Custom</Mode>
+								</SizeSeries>
+								<ShapeSeries>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>Custom</Mode>
+								</ShapeSeries>
 							</Plot>
 						</Plots>
-					</DVChart>
-					<DVChart Name="NoOfSales">
-						<DataSetName>FilteredOrders</DataSetName>
-						<Top>14cm</Top>
+					</Chart>
+					<Chart version="1.1.1.0" Name="NoOfSales" xmlns="http://cdn.grapecity.com/ActiveReports/reporting/ReportItems/Chart">
 						<Left>14.5cm</Left>
-						<Width>13cm</Width>
 						<Height>12cm</Height>
+						<Top>14cm</Top>
+						<Visibility>
+							<Hidden>False</Hidden>
+						</Visibility>
+						<Width>13cm</Width>
+						<ZIndex>1</ZIndex>
+						<DataElementName>NoOfSales</DataElementName>
 						<Style>
-							<FontSize>8pt</FontSize>
 							<Border>
 								<Style>Solid</Style>
 								<Color>#e4e4e4</Color>
 							</Border>
+							<FontSize>8pt</FontSize>
 						</Style>
-						<ZIndex>1</ZIndex>
-						<DisplayTypeSelector>false</DisplayTypeSelector>
+						<DataSetName>FilteredOrders</DataSetName>
+						<Palette>Organic</Palette>
 						<Header>
 							<Style>
 								<BackgroundColor>#f1f1f1</BackgroundColor>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>2pt</PaddingBottom>
 								<PaddingLeft>0.1in</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontFamily>Lucida Sans</FontFamily>
+								<FontSize>16pt</FontSize>
+								<FontWeight>Light</FontWeight>
+								<Color>#551e5f</Color>
 							</Style>
-							<Text>
-								<Style>
-									<Color>#551e5f</Color>
-									<FontFamily>Lucida Sans</FontFamily>
-									<FontSize>16pt</FontSize>
-									<FontWeight>300</FontWeight>
-								</Style>
-							</Text>
 							<Title>Units Sold by Purchase Method</Title>
 							<Height>0.08</Height>
 						</Header>
 						<Footer>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>4pt</PaddingBottom>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontSize>8pt</FontSize>
 							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
 						</Footer>
-						<Bar>
-							<TopWidth>0.55</TopWidth>
-							<BottomWidth>0.55</BottomWidth>
-							<Width>0.55</Width>
-						</Bar>
 						<PlotArea>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>2pt</PaddingBottom>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontSize>8pt</FontSize>
 							</Style>
 							<Axes>
 								<Axis>
-									<AxisLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</AxisLine>
-									<Labels>
-										<Style>
-											<FontFamily>Segoe UI</FontFamily>
-											<FontSize>9pt</FontSize>
-											<PaddingRight>5pt</PaddingRight>
-										</Style>
-									</Labels>
-									<MajorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MajorGrid>
-									<MinorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MinorGrid>
-									<MajorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>4pt</Size>
-									</MajorTicks>
-									<MinorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>2pt</Size>
-									</MinorTicks>
+									<LabelStyle>
+										<PaddingRight>5pt</PaddingRight>
+										<FontFamily>Segoe UI</FontFamily>
+										<FontSize>9pt</FontSize>
+									</LabelStyle>
+									<LineStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</LineStyle>
+									<LogBase>10</LogBase>
+									<MajorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MajorGridStyle>
+									<MajorTickSize>4pt</MajorTickSize>
+									<MajorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MajorTickStyle>
+									<MajorUnit>=""</MajorUnit>
+									<MinorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MinorGridStyle>
+									<MinorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MinorTickStyle>
+									<MinorTickSize>2pt</MinorTickSize>
+									<MinorUnit>=""</MinorUnit>
 									<Plots>
 										<Plot>No of Sales</Plot>
 									</Plots>
-									<Style>
-										<FontSize>8pt</FontSize>
-									</Style>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Title>
-										<Style>
-											<FontFamily>Lucida Sans</FontFamily>
-											<PaddingBottom>2pt</PaddingBottom>
-											<PaddingLeft>2pt</PaddingLeft>
-											<PaddingRight>3pt</PaddingRight>
-											<PaddingTop>2pt</PaddingTop>
-										</Style>
-										<Caption>Region</Caption>
-									</Title>
+									<Title>Region</Title>
+									<TitleStyle>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>3pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontFamily>Lucida Sans</FontFamily>
+									</TitleStyle>
 									<Type>X</Type>
-									<DateMode>Default</DateMode>
 								</Axis>
 								<Axis>
-									<AxisLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</AxisLine>
 									<Format>d</Format>
-									<Labels>
-										<Style>
-											<FontFamily>Segoe UI</FontFamily>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Labels>
-									<MajorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-												<Width>0.25pt</Width>
-											</Border>
-										</Style>
-									</MajorGrid>
-									<MinorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MinorGrid>
-									<MajorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>4pt</Size>
-									</MajorTicks>
-									<MinorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>=""</Size>
-									</MinorTicks>
+									<LabelStyle>
+										<FontFamily>Segoe UI</FontFamily>
+										<FontSize>8pt</FontSize>
+									</LabelStyle>
+									<LineStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</LineStyle>
+									<LogBase>10</LogBase>
+									<MajorGridStyle>
+										<Border>
+											<Style>Solid</Style>
+											<Width>0.25pt</Width>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorGridStyle>
+									<MajorTickSize>4pt</MajorTickSize>
+									<MajorTickStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorTickStyle>
+									<MajorUnit>=""</MajorUnit>
+									<MinorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MinorGridStyle>
+									<MinorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MinorTickStyle>
+									<MinorTickSize>=""</MinorTickSize>
+									<MinorUnit>=""</MinorUnit>
 									<Plots>
 										<Plot>No of Sales</Plot>
 									</Plots>
-									<Style>
+									<TitleStyle>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
 										<FontSize>8pt</FontSize>
-									</Style>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<PaddingBottom>2pt</PaddingBottom>
-											<PaddingLeft>2pt</PaddingLeft>
-											<PaddingRight>2pt</PaddingRight>
-											<PaddingTop>2pt</PaddingTop>
-										</Style>
-									</Title>
+									</TitleStyle>
 									<Type>Y</Type>
-									<DateMode>Default</DateMode>
 								</Axis>
 							</Axes>
-							<Legends>
-								<Legend>
+						</PlotArea>
+						<Plots>
+							<Plot Name="No of Sales">
+								<DataCollectionName>Plot_Collection</DataCollectionName>
+								<DataElementName>Plot</DataElementName>
+								<Config>
+									<Bar>
+										<BottomWidth>0.55</BottomWidth>
+										<TopWidth>0.55</TopWidth>
+										<Width>0.55</Width>
+										<NeckHeight>1</NeckHeight>
+										<Overlap>0</Overlap>
+									</Bar>
+									<ClippingMode>None</ClippingMode>
+									<SwapAxes>true</SwapAxes>
+								</Config>
+								<SeriesGroupings>
+									<SeriesGrouping>
+										<Grouping Name="NoofSales_purchase_method_Group">
+											<GroupExpressions>
+												<GroupExpression>=Fields!purchase_method.Value</GroupExpression>
+											</GroupExpressions>
+											<DataCollectionName>SeriesGrouping_Collection</DataCollectionName>
+											<DataElementName>SeriesGrouping</DataElementName>
+										</Grouping>
+									</SeriesGrouping>
+								</SeriesGroupings>
+								<CategoryGroupings>
+									<CategoryGrouping>
+										<Grouping Name="NoofSales_region_Group">
+											<GroupExpressions>
+												<GroupExpression>=Fields!region.Value</GroupExpression>
+											</GroupExpressions>
+											<DataCollectionName>CategoryGrouping_Collection</DataCollectionName>
+											<DataElementName>CategoryGrouping</DataElementName>
+										</Grouping>
+									</CategoryGrouping>
+								</CategoryGroupings>
+								<DataSeries>
+									<SeriesItem>
+										<Name>product_item (Count)</Name>
+										<Values>
+											<DataValue>
+												<Value>=Count(Fields!product_item.Value)</Value>
+												<Caption>product_item (Count)</Caption>
+											</DataValue>
+										</Values>
+										<Label>
+											<Style>
+												<BackgroundColor>WhiteSmoke</BackgroundColor>
+												<Border>
+													<Style>Dotted</Style>
+													<Color>Gainsboro</Color>
+												</Border>
+												<FontFamily>Dubai</FontFamily>
+												<FontSize>9pt</FontSize>
+												<Color>Black</Color>
+											</Style>
+											<TextPosition>Outside</TextPosition>
+											<Offset>10</Offset>
+											<Value>=Count(Fields!product_item.Value)</Value>
+										</Label>
+										<Marker>
+											<Style>
+												<FontSize>8pt</FontSize>
+											</Style>
+										</Marker>
+										<Style>
+											<BackgroundColor>=""</BackgroundColor>
+											<Border>
+												<Color>=""</Color>
+											</Border>
+										</Style>
+										<DataElementOutput>Auto</DataElementOutput>
+									</SeriesItem>
+								</DataSeries>
+								<ColorSeries>
+									<Orientation>Horizontal</Orientation>
+									<Position>Top</Position>
 									<Style>
-										<FontSize>8pt</FontSize>
 										<PaddingBottom>20pt</PaddingBottom>
 										<PaddingLeft>2pt</PaddingLeft>
 										<PaddingRight>20pt</PaddingRight>
 										<PaddingTop>5pt</PaddingTop>
-									</Style>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Title>
-									<Text>
-										<Style>
-											<FontFamily>Nirmala UI</FontFamily>
-											<FontSize>11pt</FontSize>
-										</Style>
-									</Text>
-									<Orientation>Horizontal</Orientation>
-									<Position>Top</Position>
-									<Type>Color</Type>
-								</Legend>
-							</Legends>
-						</PlotArea>
-						<Legend>
-							<Style>
-								<FontSize>8pt</FontSize>
-								<PaddingBottom>2pt</PaddingBottom>
-								<PaddingLeft>2pt</PaddingLeft>
-								<PaddingRight>2pt</PaddingRight>
-								<PaddingTop>2pt</PaddingTop>
-							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
-							<Title>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Title>
-						</Legend>
-						<Palette>Organic</Palette>
-						<Plots>
-							<Plot>
-								<Type>Bar</Type>
-								<Name>No of Sales</Name>
-								<PlotChartType>Column</PlotChartType>
-								<Config>
-									<BarLineStyle>
-										<Style>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</BarLineStyle>
-									<ClippingMode>None</ClippingMode>
-									<SwapAxes>true</SwapAxes>
-									<Bar />
-									<Style>
 										<FontSize>8pt</FontSize>
 									</Style>
-									<Symbols>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>None</Style>
-												<Width>1pt</Width>
-											</Border>
-										</Style>
-									</Symbols>
-									<Text>
-										<ConnectingLine>
-											<Style>
-												<FontSize>8pt</FontSize>
-												<Border>
-													<Style>None</Style>
-												</Border>
-											</Style>
-										</ConnectingLine>
-										<Offset>10</Offset>
-										<TextPosition>Outside</TextPosition>
-										<Template>{valueField.value}</Template>
-										<Style>
-											<BackgroundColor>WhiteSmoke</BackgroundColor>
-											<Color>Black</Color>
-											<FontFamily>Dubai</FontFamily>
-											<FontSize>9pt</FontSize>
-											<Border>
-												<Style>Dotted</Style>
-												<Color>Gainsboro</Color>
-											</Border>
-										</Style>
-									</Text>
-									<Tooltip />
-								</Config>
-								<Encodings>
-									<Values>
-										<Value>
-											<Field fieldType="Simple">
-												<Value>
-													<FieldItem>=Count(Fields!product_item.Value)</FieldItem>
-												</Value>
-											</Field>
-										</Value>
-									</Values>
-									<Details>
-										<Detail>
-											<Field>
-												<Value>
-													<FieldItem>=Fields!purchase_method.Value</FieldItem>
-												</Value>
-											</Field>
-											<SortingField>=""</SortingField>
-										</Detail>
-									</Details>
-									<Category>
-										<Field>
-											<Value>
-												<FieldItem>=Fields!region.Value</FieldItem>
-											</Value>
-										</Field>
-										<SortingField>=""</SortingField>
-									</Category>
-									<Color>
-										<Field>
-											<Value>
-												<FieldItem>=Fields!purchase_method.Value</FieldItem>
-											</Value>
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Color>
-									<Shape>
-										<Field>
-											<Value />
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Shape>
-									<Size>
-										<Field>
-											<Value />
-										</Field>
-										<Aggregate>None</Aggregate>
-									</Size>
-								</Encodings>
+									<TextStyle>
+										<FontFamily>Nirmala UI</FontFamily>
+										<FontSize>11pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<Title />
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>SeriesGroups</Mode>
+								</ColorSeries>
+								<SizeSeries>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<RangeOptions />
+									<Mode>Custom</Mode>
+								</SizeSeries>
+								<ShapeSeries>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>Custom</Mode>
+								</ShapeSeries>
 							</Plot>
 						</Plots>
-					</DVChart>
-					<DVChart Name="TotalSales">
-						<DataSetName>FilteredOrders</DataSetName>
-						<Top>0.8cm</Top>
+					</Chart>
+					<Chart version="1.1.1.0" Name="TotalSales" xmlns="http://cdn.grapecity.com/ActiveReports/reporting/ReportItems/Chart">
 						<Left>0.6cm</Left>
-						<Width>22.8cm</Width>
 						<Height>12cm</Height>
+						<Top>0.8cm</Top>
+						<Visibility>
+							<Hidden>False</Hidden>
+						</Visibility>
+						<Width>22.8cm</Width>
+						<ZIndex>3</ZIndex>
+						<DataElementName>TotalSales</DataElementName>
 						<Style>
-							<FontSize>8pt</FontSize>
 							<Border>
 								<Style>Solid</Style>
 								<Color>#e4e4e4</Color>
 							</Border>
+							<FontSize>8pt</FontSize>
 						</Style>
-						<ZIndex>3</ZIndex>
-						<DisplayTypeSelector>false</DisplayTypeSelector>
+						<DataSetName>FilteredOrders</DataSetName>
+						<Palette>Superhero</Palette>
 						<Header>
 							<Style>
 								<BackgroundColor>#f1f1f1</BackgroundColor>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>2pt</PaddingBottom>
 								<PaddingLeft>0.1in</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontFamily>Lucida Sans</FontFamily>
+								<FontSize>16pt</FontSize>
+								<FontWeight>Light</FontWeight>
+								<Color>#551e5f</Color>
 							</Style>
-							<Text>
-								<Style>
-									<Color>#551e5f</Color>
-									<FontFamily>Lucida Sans</FontFamily>
-									<FontSize>16pt</FontSize>
-									<FontWeight>300</FontWeight>
-								</Style>
-							</Text>
 							<Title>Total Sales (in $)</Title>
 							<Height>0.08</Height>
 						</Header>
 						<Footer>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>4pt</PaddingBottom>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontSize>8pt</FontSize>
 							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
 						</Footer>
-						<Bar>
-							<TopWidth>0.55</TopWidth>
-							<BottomWidth>0.55</BottomWidth>
-							<Width>0.55</Width>
-						</Bar>
 						<PlotArea>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
+								<FontSize>8pt</FontSize>
 							</Style>
 							<Axes>
 								<Axis>
-									<AxisLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</AxisLine>
 									<LabelAngle>-45</LabelAngle>
-									<Labels>
-										<Style>
-											<FontFamily>Segoe UI</FontFamily>
-											<FontSize>9pt</FontSize>
-										</Style>
-									</Labels>
-									<MajorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MajorGrid>
-									<MinorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MinorGrid>
-									<MajorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>4pt</Size>
-									</MajorTicks>
-									<MinorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>2pt</Size>
-									</MinorTicks>
+									<LabelStyle>
+										<FontFamily>Segoe UI</FontFamily>
+										<FontSize>9pt</FontSize>
+									</LabelStyle>
+									<LineStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</LineStyle>
+									<LogBase>10</LogBase>
+									<MajorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MajorGridStyle>
+									<MajorTickSize>4pt</MajorTickSize>
+									<MajorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MajorTickStyle>
+									<MajorUnit>=""</MajorUnit>
+									<MinorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MinorGridStyle>
+									<MinorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MinorTickStyle>
+									<MinorTickSize>2pt</MinorTickSize>
+									<MinorUnit>=""</MinorUnit>
 									<OverlappingLabels>Show</OverlappingLabels>
 									<Plots>
 										<Plot>Plot1</Plot>
 									</Plots>
-									<Style>
+									<TitleStyle>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
 										<FontSize>8pt</FontSize>
-									</Style>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<PaddingBottom>2pt</PaddingBottom>
-											<PaddingLeft>2pt</PaddingLeft>
-											<PaddingRight>2pt</PaddingRight>
-											<PaddingTop>2pt</PaddingTop>
-										</Style>
-									</Title>
+									</TitleStyle>
 									<Type>X</Type>
-									<DateMode>Default</DateMode>
 								</Axis>
 								<Axis>
-									<AxisLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</AxisLine>
 									<Format>d</Format>
-									<Labels>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<PaddingRight>5pt</PaddingRight>
-										</Style>
-									</Labels>
-									<MajorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</MajorGrid>
-									<MinorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MinorGrid>
-									<MajorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>4pt</Size>
-									</MajorTicks>
-									<MinorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>2pt</Size>
-									</MinorTicks>
+									<LabelStyle>
+										<PaddingRight>5pt</PaddingRight>
+										<FontSize>8pt</FontSize>
+									</LabelStyle>
+									<LineStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</LineStyle>
+									<LogBase>10</LogBase>
+									<MajorGridStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorGridStyle>
+									<MajorTickSize>4pt</MajorTickSize>
+									<MajorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MajorTickStyle>
+									<MajorUnit>=""</MajorUnit>
+									<MinorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MinorGridStyle>
+									<MinorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MinorTickStyle>
+									<MinorTickSize>2pt</MinorTickSize>
+									<MinorUnit>=""</MinorUnit>
 									<Plots>
 										<Plot>Plot1</Plot>
 									</Plots>
-									<Style>
-										<FontSize>8pt</FontSize>
-									</Style>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Title>
-										<Style>
-											<FontFamily>Lucida Sans</FontFamily>
-											<PaddingBottom>2pt</PaddingBottom>
-											<PaddingLeft>2pt</PaddingLeft>
-											<PaddingRight>3pt</PaddingRight>
-											<PaddingTop>2pt</PaddingTop>
-										</Style>
-										<Caption>Order Price</Caption>
-									</Title>
+									<Title>Order Price</Title>
+									<TitleStyle>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>3pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontFamily>Lucida Sans</FontFamily>
+									</TitleStyle>
 									<Type>Y</Type>
-									<DateMode>Default</DateMode>
 								</Axis>
 							</Axes>
-							<Legends>
-								<Legend>
+						</PlotArea>
+						<Plots>
+							<Plot Name="Plot1">
+								<DataCollectionName>Plot_Collection</DataCollectionName>
+								<DataElementName>Plot</DataElementName>
+								<Config>
+									<Bar>
+										<BottomWidth>0.55</BottomWidth>
+										<TopWidth>0.55</TopWidth>
+										<Width>0.55</Width>
+										<NeckHeight>1</NeckHeight>
+										<Overlap>0</Overlap>
+									</Bar>
+									<ClippingMode>None</ClippingMode>
+									<SeriesArrangement>Stack</SeriesArrangement>
+								</Config>
+								<SeriesGroupings>
+									<SeriesGrouping>
+										<Grouping Name="Plot1_payment_method_Group">
+											<GroupExpressions>
+												<GroupExpression>=Fields!payment_method.Value</GroupExpression>
+											</GroupExpressions>
+											<DataCollectionName>SeriesGrouping_Collection</DataCollectionName>
+											<DataElementName>SeriesGrouping</DataElementName>
+										</Grouping>
+									</SeriesGrouping>
+								</SeriesGroupings>
+								<CategoryGroupings>
+									<CategoryGrouping>
+										<Grouping Name="Plot1_city_Group">
+											<GroupExpressions>
+												<GroupExpression>=Fields!city.Value</GroupExpression>
+											</GroupExpressions>
+											<DataCollectionName>CategoryGrouping_Collection</DataCollectionName>
+											<DataElementName>CategoryGrouping</DataElementName>
+										</Grouping>
+									</CategoryGrouping>
+								</CategoryGroupings>
+								<DataSeries>
+									<SeriesItem>
+										<Name>order_price (Sum)</Name>
+										<Values>
+											<DataValue>
+												<Value>=Sum(Fields!order_price.Value)</Value>
+												<Caption>order_price (Sum)</Caption>
+											</DataValue>
+										</Values>
+										<Label>
+											<Style>
+												<FontSize>8pt</FontSize>
+											</Style>
+										</Label>
+										<Marker>
+											<Style>
+												<FontSize>8pt</FontSize>
+											</Style>
+										</Marker>
+										<Style>
+											<BackgroundColor>=""</BackgroundColor>
+											<Border>
+												<Style>Solid</Style>
+												<Color>DimGray</Color>
+											</Border>
+										</Style>
+										<DataElementOutput>Auto</DataElementOutput>
+									</SeriesItem>
+								</DataSeries>
+								<ColorSeries>
+									<Orientation>Horizontal</Orientation>
+									<Position>Top</Position>
 									<Style>
-										<FontSize>8pt</FontSize>
 										<PaddingBottom>20pt</PaddingBottom>
 										<PaddingLeft>2pt</PaddingLeft>
 										<PaddingRight>20pt</PaddingRight>
 										<PaddingTop>5pt</PaddingTop>
-									</Style>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Title>
-									<Text>
-										<Style>
-											<FontFamily>Nirmala UI</FontFamily>
-											<FontSize>11pt</FontSize>
-										</Style>
-									</Text>
-									<Orientation>Horizontal</Orientation>
-									<Position>Top</Position>
-									<Type>Color</Type>
-								</Legend>
-							</Legends>
-						</PlotArea>
-						<Legend>
-							<Style>
-								<FontSize>8pt</FontSize>
-								<PaddingBottom>2pt</PaddingBottom>
-								<PaddingLeft>2pt</PaddingLeft>
-								<PaddingRight>2pt</PaddingRight>
-								<PaddingTop>2pt</PaddingTop>
-							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
-							<Title>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Title>
-						</Legend>
-						<Palette>Superhero</Palette>
-						<Plots>
-							<Plot>
-								<Type>Bar</Type>
-								<Name>Plot1</Name>
-								<PlotChartType>Column</PlotChartType>
-								<PlotChartSubtype>Stacked</PlotChartSubtype>
-								<Config>
-									<BarLineStyle>
-										<Style>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</BarLineStyle>
-									<ClippingMode>None</ClippingMode>
-									<Bar />
-									<Style>
 										<FontSize>8pt</FontSize>
-										<Border>
-											<Style>Solid</Style>
-											<Color>DimGray</Color>
-										</Border>
 									</Style>
-									<Symbols>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>None</Style>
-												<Width>1pt</Width>
-											</Border>
-										</Style>
-									</Symbols>
-									<Text>
-										<ConnectingLine>
-											<Style>
-												<FontSize>8pt</FontSize>
-											</Style>
-										</ConnectingLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Tooltip />
-								</Config>
-								<Encodings>
-									<Values>
-										<Value>
-											<Field fieldType="Simple">
-												<Value>
-													<FieldItem>=Sum(Fields!order_price.Value)</FieldItem>
-												</Value>
-											</Field>
-										</Value>
-									</Values>
-									<Details>
-										<Detail>
-											<Field>
-												<Value>
-													<FieldItem>=Fields!payment_method.Value</FieldItem>
-												</Value>
-											</Field>
-											<Group>Stack</Group>
-											<SortingField>=""</SortingField>
-										</Detail>
-									</Details>
-									<Category>
-										<Field>
-											<Value>
-												<FieldItem>=Fields!city.Value</FieldItem>
-											</Value>
-										</Field>
-										<SortingField>=""</SortingField>
-									</Category>
-									<Color>
-										<Field>
-											<Value>
-												<FieldItem>=Fields!payment_method.Value</FieldItem>
-											</Value>
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Color>
-									<Shape>
-										<Field>
-											<Value />
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Shape>
-									<Size>
-										<Field>
-											<Value />
-										</Field>
-										<Aggregate>None</Aggregate>
-									</Size>
-								</Encodings>
+									<TextStyle>
+										<FontFamily>Nirmala UI</FontFamily>
+										<FontSize>11pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<Title />
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>SeriesGroups</Mode>
+								</ColorSeries>
+								<SizeSeries>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<RangeOptions />
+									<Mode>Custom</Mode>
+								</SizeSeries>
+								<ShapeSeries>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>Custom</Mode>
+								</ShapeSeries>
 							</Plot>
 						</Plots>
-					</DVChart>
-					<DVChart Name="AverageAge">
-						<DataSetName>FilteredOrders</DataSetName>
-						<Top>14cm</Top>
+					</Chart>
+					<Chart version="1.1.1.0" Name="AverageAge" xmlns="http://cdn.grapecity.com/ActiveReports/reporting/ReportItems/Chart">
 						<Left>28.4cm</Left>
-						<Width>13cm</Width>
 						<Height>12cm</Height>
+						<Top>14cm</Top>
+						<Visibility>
+							<Hidden>False</Hidden>
+						</Visibility>
+						<Width>13cm</Width>
+						<ZIndex>1</ZIndex>
+						<DataElementName>AverageAge</DataElementName>
 						<Style>
-							<FontSize>8pt</FontSize>
 							<Border>
 								<Style>Solid</Style>
 								<Color>#e4e4e4</Color>
 							</Border>
+							<FontSize>8pt</FontSize>
 						</Style>
-						<ZIndex>1</ZIndex>
-						<DisplayTypeSelector>false</DisplayTypeSelector>
+						<DataSetName>FilteredOrders</DataSetName>
+						<Palette>Office2010</Palette>
 						<Header>
 							<Style>
 								<BackgroundColor>#f1f1f1</BackgroundColor>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>2pt</PaddingBottom>
 								<PaddingLeft>0.1in</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontFamily>Lucida Sans</FontFamily>
+								<FontSize>16pt</FontSize>
+								<FontWeight>Light</FontWeight>
+								<Color>#551e5f</Color>
 							</Style>
-							<Text>
-								<Style>
-									<Color>#551e5f</Color>
-									<FontFamily>Lucida Sans</FontFamily>
-									<FontSize>16pt</FontSize>
-									<FontWeight>300</FontWeight>
-								</Style>
-							</Text>
 							<Title>Average Age of Customers by Region</Title>
 							<Height>0.08</Height>
 						</Header>
 						<Footer>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>4pt</PaddingBottom>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontSize>8pt</FontSize>
 							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
 						</Footer>
-						<Bar>
-							<TopWidth>0.55</TopWidth>
-							<BottomWidth>0.55</BottomWidth>
-							<Width>0.55</Width>
-						</Bar>
 						<PlotArea>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>2pt</PaddingBottom>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontSize>8pt</FontSize>
 							</Style>
 							<Axes>
 								<Axis>
-									<AxisLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</AxisLine>
 									<LabelAngle>-45</LabelAngle>
-									<Labels>
-										<Style>
-											<FontFamily>Segoe UI</FontFamily>
-											<FontSize>9pt</FontSize>
-											<PaddingLeft>0pt</PaddingLeft>
-											<PaddingRight>0pt</PaddingRight>
-										</Style>
-									</Labels>
-									<MajorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-												<Color>WhiteSmoke</Color>
-											</Border>
-										</Style>
-										<Visible>true</Visible>
-									</MajorGrid>
-									<MinorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MinorGrid>
-									<MajorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>4pt</Size>
-									</MajorTicks>
-									<MinorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>2pt</Size>
-									</MinorTicks>
+									<LabelStyle>
+										<PaddingLeft>0pt</PaddingLeft>
+										<PaddingRight>0pt</PaddingRight>
+										<FontFamily>Segoe UI</FontFamily>
+										<FontSize>9pt</FontSize>
+									</LabelStyle>
+									<LineStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</LineStyle>
+									<LogBase>10</LogBase>
+									<MajorGrid>true</MajorGrid>
+									<MajorGridStyle>
+										<Border>
+											<Style>Solid</Style>
+											<Color>WhiteSmoke</Color>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorGridStyle>
+									<MajorTickSize>4pt</MajorTickSize>
+									<MajorTickStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorTickStyle>
+									<MajorUnit>=""</MajorUnit>
+									<MinorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MinorGridStyle>
+									<MinorTickStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MinorTickStyle>
+									<MinorTickSize>2pt</MinorTickSize>
+									<MinorUnit>=""</MinorUnit>
 									<OverlappingLabels>Show</OverlappingLabels>
 									<Plots>
 										<Plot>No of Sales</Plot>
 									</Plots>
 									<Reversed>true</Reversed>
-									<Style>
+									<TitleStyle>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>6pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
 										<FontSize>8pt</FontSize>
-									</Style>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<PaddingBottom>2pt</PaddingBottom>
-											<PaddingLeft>6pt</PaddingLeft>
-											<PaddingRight>2pt</PaddingRight>
-											<PaddingTop>2pt</PaddingTop>
-										</Style>
-									</Title>
+									</TitleStyle>
 									<Type>X</Type>
-									<DateMode>Default</DateMode>
 								</Axis>
 								<Axis>
-									<AxisLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</AxisLine>
 									<Format>d</Format>
-									<Labels>
-										<Style>
-											<FontFamily>Segoe UI</FontFamily>
-											<FontSize>8pt</FontSize>
-											<PaddingRight>5pt</PaddingRight>
-										</Style>
-									</Labels>
-									<MajorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-												<Color>WhiteSmoke</Color>
-												<Width>1pt</Width>
-											</Border>
-										</Style>
-										<Visible>true</Visible>
-									</MajorGrid>
-									<MinorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MinorGrid>
-									<MajorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>4pt</Size>
-									</MajorTicks>
-									<MinorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>=""</Size>
-									</MinorTicks>
+									<LabelStyle>
+										<PaddingRight>5pt</PaddingRight>
+										<FontFamily>Segoe UI</FontFamily>
+										<FontSize>8pt</FontSize>
+									</LabelStyle>
+									<LineStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</LineStyle>
+									<LogBase>10</LogBase>
+									<MajorGrid>true</MajorGrid>
+									<MajorGridStyle>
+										<Border>
+											<Style>Solid</Style>
+											<Color>WhiteSmoke</Color>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorGridStyle>
+									<MajorTickSize>4pt</MajorTickSize>
+									<MajorTickStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorTickStyle>
+									<MajorUnit>=""</MajorUnit>
+									<MinorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MinorGridStyle>
+									<MinorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MinorTickStyle>
+									<MinorTickSize>=""</MinorTickSize>
+									<MinorUnit>=""</MinorUnit>
 									<Plots>
 										<Plot>No of Sales</Plot>
 									</Plots>
-									<Style>
-										<FontSize>8pt</FontSize>
-									</Style>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Title>
-										<Style>
-											<FontFamily>Lucida Sans</FontFamily>
-											<PaddingBottom>2pt</PaddingBottom>
-											<PaddingLeft>2pt</PaddingLeft>
-											<PaddingRight>3pt</PaddingRight>
-											<PaddingTop>2pt</PaddingTop>
-										</Style>
-										<Caption>Average Age of customer</Caption>
-									</Title>
+									<Title>Average Age of customer</Title>
+									<TitleStyle>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>3pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontFamily>Lucida Sans</FontFamily>
+									</TitleStyle>
 									<Type>Y</Type>
-									<DateMode>Default</DateMode>
 								</Axis>
 							</Axes>
-							<Legends>
-								<Legend>
+						</PlotArea>
+						<Plots>
+							<Plot Name="No of Sales">
+								<Type>Area</Type>
+								<DataCollectionName>Plot_Collection</DataCollectionName>
+								<DataElementName>Plot</DataElementName>
+								<Config>
+									<Bar>
+										<BottomWidth>0.55</BottomWidth>
+										<TopWidth>0.55</TopWidth>
+										<Width>0.55</Width>
+										<NeckHeight>1</NeckHeight>
+										<Overlap>0</Overlap>
+									</Bar>
+									<ClippingMode>None</ClippingMode>
+									<ShowNulls>Connected</ShowNulls>
+									<LineAspect>Spline</LineAspect>
+								</Config>
+								<SeriesGroupings>
+									<SeriesGrouping>
+										<Grouping Name="NoofSales_region_Group">
+											<GroupExpressions>
+												<GroupExpression>=Fields!region.Value</GroupExpression>
+											</GroupExpressions>
+											<DataCollectionName>SeriesGrouping_Collection</DataCollectionName>
+											<DataElementName>SeriesGrouping</DataElementName>
+										</Grouping>
+										<Sorting>
+											<SortBy>
+												<Direction>Descending</Direction>
+												<SortExpression>=Fields!region.Value</SortExpression>
+											</SortBy>
+										</Sorting>
+									</SeriesGrouping>
+								</SeriesGroupings>
+								<CategoryGroupings>
+									<CategoryGrouping>
+										<Grouping Name="NoofSales_product_category_Group">
+											<GroupExpressions>
+												<GroupExpression>=Fields!product_category.Value</GroupExpression>
+											</GroupExpressions>
+											<DataCollectionName>CategoryGrouping_Collection</DataCollectionName>
+											<DataElementName>CategoryGrouping</DataElementName>
+										</Grouping>
+									</CategoryGrouping>
+								</CategoryGroupings>
+								<DataSeries>
+									<SeriesItem>
+										<Name>customer_age</Name>
+										<Values>
+											<DataValue>
+												<Value>=Avg(Fields!customer_age.Value)</Value>
+												<Caption>customer_age</Caption>
+											</DataValue>
+										</Values>
+										<Label>
+											<Style>
+												<Border>
+													<Style>Dotted</Style>
+													<Color>Gainsboro</Color>
+												</Border>
+												<FontFamily>Dubai</FontFamily>
+												<FontSize>9pt</FontSize>
+											</Style>
+										</Label>
+										<Marker>
+											<Style>
+												<FontSize>8pt</FontSize>
+											</Style>
+										</Marker>
+										<Style>
+											<BackgroundColor>=""</BackgroundColor>
+											<Border>
+												<Color>=""</Color>
+											</Border>
+										</Style>
+										<Opacity>0.8</Opacity>
+										<DataElementOutput>Auto</DataElementOutput>
+									</SeriesItem>
+								</DataSeries>
+								<ColorSeries>
+									<Orientation>Horizontal</Orientation>
+									<Position>Top</Position>
 									<Style>
-										<FontSize>8pt</FontSize>
 										<PaddingBottom>20pt</PaddingBottom>
 										<PaddingLeft>2pt</PaddingLeft>
 										<PaddingRight>20pt</PaddingRight>
 										<PaddingTop>5pt</PaddingTop>
-									</Style>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Title>
-									<Text>
-										<Style>
-											<FontFamily>Nirmala UI</FontFamily>
-											<FontSize>11pt</FontSize>
-										</Style>
-									</Text>
-									<Orientation>Horizontal</Orientation>
-									<Position>Top</Position>
-									<Type>Color</Type>
-								</Legend>
-							</Legends>
-						</PlotArea>
-						<Legend>
-							<Style>
-								<FontSize>8pt</FontSize>
-								<PaddingBottom>2pt</PaddingBottom>
-								<PaddingLeft>2pt</PaddingLeft>
-								<PaddingRight>2pt</PaddingRight>
-								<PaddingTop>2pt</PaddingTop>
-							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
-							<Title>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Title>
-						</Legend>
-						<Palette>Office2010</Palette>
-						<Plots>
-							<Plot>
-								<Type>Area</Type>
-								<Name>No of Sales</Name>
-								<PlotChartType>Area</PlotChartType>
-								<Config>
-									<BarLineStyle>
-										<Style>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</BarLineStyle>
-									<ClippingMode>None</ClippingMode>
-									<ShowNulls>Connected</ShowNulls>
-									<LineAspect>Spline</LineAspect>
-									<Opacity>0.8</Opacity>
-									<Bar />
-									<Style>
 										<FontSize>8pt</FontSize>
 									</Style>
-									<Symbols>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>None</Style>
-												<Width>1pt</Width>
-											</Border>
-										</Style>
-									</Symbols>
-									<Text>
-										<ConnectingLine>
-											<Style>
-												<FontSize>8pt</FontSize>
-												<Border>
-													<Style>None</Style>
-												</Border>
-											</Style>
-										</ConnectingLine>
-										<Style>
-											<FontFamily>Dubai</FontFamily>
-											<FontSize>9pt</FontSize>
-											<Border>
-												<Style>Dotted</Style>
-												<Color>Gainsboro</Color>
-											</Border>
-										</Style>
-									</Text>
-									<Tooltip />
-								</Config>
-								<Encodings>
-									<Values>
-										<Value>
-											<Field fieldType="Simple">
-												<Value>
-													<FieldItem>=Fields!customer_age.Value</FieldItem>
-												</Value>
-											</Field>
-											<Aggregate>Average</Aggregate>
-										</Value>
-									</Values>
-									<Details>
-										<Detail>
-											<Field>
-												<Value>
-													<FieldItem>=Fields!region.Value</FieldItem>
-												</Value>
-											</Field>
-											<Sort>Descending</Sort>
-											<SortingField>=""</SortingField>
-										</Detail>
-									</Details>
-									<Category>
-										<Field>
-											<Value>
-												<FieldItem>=Fields!product_category.Value</FieldItem>
-											</Value>
-										</Field>
-										<SortingField>=""</SortingField>
-									</Category>
-									<Color>
-										<Field>
-											<Value>
-												<FieldItem>=Fields!region.Value</FieldItem>
-											</Value>
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Color>
-									<Shape>
-										<Field>
-											<Value />
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Shape>
-									<Size>
-										<Field>
-											<Value />
-										</Field>
-										<Aggregate>None</Aggregate>
-									</Size>
-								</Encodings>
+									<TextStyle>
+										<FontFamily>Nirmala UI</FontFamily>
+										<FontSize>11pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<Title />
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>SeriesGroups</Mode>
+								</ColorSeries>
+								<SizeSeries>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<RangeOptions />
+									<Mode>Custom</Mode>
+								</SizeSeries>
+								<ShapeSeries>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>Custom</Mode>
+								</ShapeSeries>
 							</Plot>
 						</Plots>
-					</DVChart>
-					<DVChart Name="AvgOrderPrice">
-						<DataSetName>FilteredOrders</DataSetName>
-						<Top>14cm</Top>
+					</Chart>
+					<Chart version="1.1.1.0" Name="AvgOrderPrice" xmlns="http://cdn.grapecity.com/ActiveReports/reporting/ReportItems/Chart">
 						<Left>0.6cm</Left>
-						<Width>13cm</Width>
 						<Height>12cm</Height>
+						<Top>14cm</Top>
+						<Visibility>
+							<Hidden>False</Hidden>
+						</Visibility>
+						<Width>13cm</Width>
+						<ZIndex>5</ZIndex>
+						<DataElementName>AvgOrderPrice</DataElementName>
 						<Style>
-							<FontSize>8pt</FontSize>
 							<Border>
 								<Style>Solid</Style>
 								<Color>#e4e4e4</Color>
 							</Border>
+							<FontSize>8pt</FontSize>
 						</Style>
-						<ZIndex>5</ZIndex>
-						<DisplayTypeSelector>false</DisplayTypeSelector>
+						<DataSetName>FilteredOrders</DataSetName>
+						<Palette>RedViolet</Palette>
 						<Header>
 							<Style>
 								<BackgroundColor>#f1f1f1</BackgroundColor>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>2pt</PaddingBottom>
 								<PaddingLeft>0.1in</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontFamily>Lucida Sans</FontFamily>
+								<FontSize>16pt</FontSize>
+								<FontWeight>Light</FontWeight>
+								<Color>#551e5f</Color>
 							</Style>
-							<Text>
-								<Style>
-									<Color>#551e5f</Color>
-									<FontFamily>Lucida Sans</FontFamily>
-									<FontSize>16pt</FontSize>
-									<FontWeight>300</FontWeight>
-								</Style>
-							</Text>
 							<Title>Average Order Price by Payment Method</Title>
 							<Height>0.08</Height>
 						</Header>
 						<Footer>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>4pt</PaddingBottom>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontSize>8pt</FontSize>
 							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
 						</Footer>
-						<Bar>
-							<TopWidth>0.55</TopWidth>
-							<BottomWidth>0.55</BottomWidth>
-							<Width>0.55</Width>
-						</Bar>
 						<PlotArea>
 							<Style>
-								<FontSize>8pt</FontSize>
 								<PaddingBottom>2pt</PaddingBottom>
 								<PaddingLeft>2pt</PaddingLeft>
 								<PaddingRight>2pt</PaddingRight>
 								<PaddingTop>2pt</PaddingTop>
+								<FontSize>8pt</FontSize>
 							</Style>
 							<Axes>
 								<Axis>
-									<AxisLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</AxisLine>
 									<LabelAngle>-45</LabelAngle>
-									<Labels>
-										<Style>
-											<FontFamily>Segoe UI</FontFamily>
-											<FontSize>9pt</FontSize>
-										</Style>
-									</Labels>
-									<MajorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-												<Color>WhiteSmoke</Color>
-											</Border>
-										</Style>
-										<Visible>true</Visible>
-									</MajorGrid>
-									<MinorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MinorGrid>
-									<MajorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>4pt</Size>
-									</MajorTicks>
-									<MinorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>2pt</Size>
-									</MinorTicks>
+									<LabelStyle>
+										<FontFamily>Segoe UI</FontFamily>
+										<FontSize>9pt</FontSize>
+									</LabelStyle>
+									<LineStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</LineStyle>
+									<LogBase>10</LogBase>
+									<MajorGrid>true</MajorGrid>
+									<MajorGridStyle>
+										<Border>
+											<Style>Solid</Style>
+											<Color>WhiteSmoke</Color>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorGridStyle>
+									<MajorTickSize>4pt</MajorTickSize>
+									<MajorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MajorTickStyle>
+									<MajorUnit>=""</MajorUnit>
+									<MinorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MinorGridStyle>
+									<MinorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MinorTickStyle>
+									<MinorTickSize>2pt</MinorTickSize>
+									<MinorUnit>=""</MinorUnit>
 									<OverlappingLabels>Show</OverlappingLabels>
 									<Plots>
 										<Plot>Plot1</Plot>
 									</Plots>
 									<Reversed>true</Reversed>
-									<Style>
-										<FontSize>8pt</FontSize>
-									</Style>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<PaddingBottom>2pt</PaddingBottom>
-											<PaddingLeft>2pt</PaddingLeft>
-											<PaddingRight>2pt</PaddingRight>
-											<PaddingTop>2pt</PaddingTop>
-										</Style>
-									</Title>
-									<Type>X</Type>
-									<DateMode>Default</DateMode>
-								</Axis>
-								<Axis>
-									<AxisLine>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</AxisLine>
-									<Format>d</Format>
-									<Labels>
-										<Style>
-											<FontFamily>Segoe UI</FontFamily>
-											<FontSize>8pt</FontSize>
-											<PaddingRight>5pt</PaddingRight>
-										</Style>
-									</Labels>
-									<MajorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>Solid</Style>
-												<Color>WhiteSmoke</Color>
-											</Border>
-										</Style>
-										<Visible>true</Visible>
-									</MajorGrid>
-									<MinorGrid>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</MinorGrid>
-									<MajorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>4pt</Size>
-									</MajorTicks>
-									<MinorTicks>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-										<TickMark>None</TickMark>
-										<Size>2pt</Size>
-									</MinorTicks>
-									<Plots>
-										<Plot>Plot1</Plot>
-									</Plots>
-									<Style>
-										<FontSize>8pt</FontSize>
-									</Style>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Title>
-										<Style>
-											<FontFamily>Lucida Sans</FontFamily>
-											<FontSize>10pt</FontSize>
-											<PaddingBottom>2pt</PaddingBottom>
-											<PaddingLeft>2pt</PaddingLeft>
-											<PaddingRight>3pt</PaddingRight>
-											<PaddingTop>2pt</PaddingTop>
-										</Style>
-										<Caption>Average Order Price (in $)</Caption>
-									</Title>
-									<Type>Y</Type>
-									<DateMode>Default</DateMode>
-								</Axis>
-							</Axes>
-							<Legends>
-								<Legend>
-									<Style>
-										<FontSize>8pt</FontSize>
-										<PaddingBottom>20pt</PaddingBottom>
-										<PaddingLeft>2pt</PaddingLeft>
-										<PaddingRight>20pt</PaddingRight>
-										<PaddingTop>5pt</PaddingTop>
-									</Style>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Title>
-									<Text>
-										<Style>
-											<FontFamily>Nirmala UI</FontFamily>
-											<FontSize>11pt</FontSize>
-										</Style>
-									</Text>
-									<Orientation>Horizontal</Orientation>
-									<Position>Top</Position>
-									<Type>Color</Type>
-								</Legend>
-								<Legend>
-									<Style>
-										<FontSize>8pt</FontSize>
+									<TitleStyle>
 										<PaddingBottom>2pt</PaddingBottom>
 										<PaddingLeft>2pt</PaddingLeft>
 										<PaddingRight>2pt</PaddingRight>
 										<PaddingTop>2pt</PaddingTop>
-									</Style>
-									<Title>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Title>
-									<Text>
-										<Style>
-											<FontSize>8pt</FontSize>
-										</Style>
-									</Text>
-									<Hidden>true</Hidden>
-									<IconColor>Black</IconColor>
-									<Type>Size</Type>
-								</Legend>
-							</Legends>
-						</PlotArea>
-						<Legend>
-							<Style>
-								<FontSize>8pt</FontSize>
-								<PaddingBottom>2pt</PaddingBottom>
-								<PaddingLeft>2pt</PaddingLeft>
-								<PaddingRight>2pt</PaddingRight>
-								<PaddingTop>2pt</PaddingTop>
-							</Style>
-							<Text>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Text>
-							<Title>
-								<Style>
-									<FontSize>8pt</FontSize>
-								</Style>
-							</Title>
-						</Legend>
-						<Palette>RedViolet</Palette>
-						<Plots>
-							<Plot>
-								<Type>Scatter</Type>
-								<Name>Plot1</Name>
-								<PlotChartType>Bubble</PlotChartType>
-								<Config>
-									<BarLineStyle>
-										<Style>
-											<Border>
-												<Style>Solid</Style>
-											</Border>
-										</Style>
-									</BarLineStyle>
-									<ClippingMode>None</ClippingMode>
-									<Bar />
-									<Style>
 										<FontSize>8pt</FontSize>
-									</Style>
-									<Symbols>
-										<Style>
-											<FontSize>8pt</FontSize>
-											<Border>
-												<Style>None</Style>
-												<Width>1pt</Width>
-											</Border>
-										</Style>
-										<Shape>Dot</Shape>
-									</Symbols>
-									<Text>
-										<ConnectingLine>
+									</TitleStyle>
+									<Type>X</Type>
+								</Axis>
+								<Axis>
+									<Format>d</Format>
+									<LabelStyle>
+										<PaddingRight>5pt</PaddingRight>
+										<FontFamily>Segoe UI</FontFamily>
+										<FontSize>8pt</FontSize>
+									</LabelStyle>
+									<LineStyle>
+										<Border>
+											<Style>Solid</Style>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</LineStyle>
+									<LogBase>10</LogBase>
+									<MajorGrid>true</MajorGrid>
+									<MajorGridStyle>
+										<Border>
+											<Style>Solid</Style>
+											<Color>WhiteSmoke</Color>
+										</Border>
+										<FontSize>8pt</FontSize>
+									</MajorGridStyle>
+									<MajorTickSize>4pt</MajorTickSize>
+									<MajorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MajorTickStyle>
+									<MajorUnit>=""</MajorUnit>
+									<MinorGridStyle>
+										<FontSize>8pt</FontSize>
+									</MinorGridStyle>
+									<MinorTickStyle>
+										<FontSize>8pt</FontSize>
+									</MinorTickStyle>
+									<MinorTickSize>2pt</MinorTickSize>
+									<MinorUnit>=""</MinorUnit>
+									<Plots>
+										<Plot>Plot1</Plot>
+									</Plots>
+									<Title>Average Order Price (in $)</Title>
+									<TitleStyle>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>3pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontFamily>Lucida Sans</FontFamily>
+										<FontSize>10pt</FontSize>
+									</TitleStyle>
+									<Type>Y</Type>
+								</Axis>
+							</Axes>
+						</PlotArea>
+						<Plots>
+							<Plot Name="Plot1">
+								<Type>Bubble</Type>
+								<DataCollectionName>Plot_Collection</DataCollectionName>
+								<DataElementName>Plot</DataElementName>
+								<Config>
+									<Bar>
+										<BottomWidth>0.55</BottomWidth>
+										<TopWidth>0.55</TopWidth>
+										<Width>0.55</Width>
+										<NeckHeight>1</NeckHeight>
+										<Overlap>0</Overlap>
+									</Bar>
+									<ClippingMode>None</ClippingMode>
+								</Config>
+								<SeriesGroupings>
+									<SeriesGrouping>
+										<Grouping Name="Plot1_payment_method_Group">
+											<GroupExpressions>
+												<GroupExpression>=Fields!payment_method.Value</GroupExpression>
+											</GroupExpressions>
+											<DataCollectionName>SeriesGrouping_Collection</DataCollectionName>
+											<DataElementName>SeriesGrouping</DataElementName>
+										</Grouping>
+									</SeriesGrouping>
+								</SeriesGroupings>
+								<CategoryGroupings>
+									<CategoryGrouping>
+										<Grouping Name="Plot1_product_category_Group">
+											<GroupExpressions>
+												<GroupExpression>=Fields!product_category.Value</GroupExpression>
+											</GroupExpressions>
+											<DataCollectionName>CategoryGrouping_Collection</DataCollectionName>
+											<DataElementName>CategoryGrouping</DataElementName>
+										</Grouping>
+									</CategoryGrouping>
+								</CategoryGroupings>
+								<DataSeries>
+									<SeriesItem>
+										<Name>order_price</Name>
+										<Values>
+											<DataValue>
+												<Value>=Avg(Fields!order_price.Value)</Value>
+												<Caption>order_price</Caption>
+											</DataValue>
+										</Values>
+										<Label>
 											<Style>
 												<FontSize>8pt</FontSize>
 											</Style>
-										</ConnectingLine>
+										</Label>
+										<Marker>
+											<Shape>Dot</Shape>
+											<Visible>true</Visible>
+											<Style>
+												<FontSize>8pt</FontSize>
+											</Style>
+										</Marker>
 										<Style>
-											<FontSize>8pt</FontSize>
+											<BackgroundColor>=""</BackgroundColor>
+											<Border>
+												<Color>=""</Color>
+											</Border>
 										</Style>
-									</Text>
-									<Tooltip />
-								</Config>
-								<Encodings>
-									<Values>
-										<Value>
-											<Field fieldType="Simple">
-												<Value>
-													<FieldItem>=Fields!order_price.Value</FieldItem>
-												</Value>
-											</Field>
-											<Aggregate>Average</Aggregate>
-										</Value>
-									</Values>
-									<Details>
-										<Detail>
-											<Field>
-												<Value>
-													<FieldItem>=Fields!payment_method.Value</FieldItem>
-												</Value>
-											</Field>
-											<SortingField>=""</SortingField>
-										</Detail>
-									</Details>
-									<Category>
-										<Field>
-											<Value>
-												<FieldItem>=Fields!product_category.Value</FieldItem>
-											</Value>
-										</Field>
-										<SortingField>=""</SortingField>
-									</Category>
-									<Color>
-										<Field>
-											<Value>
-												<FieldItem>=Fields!payment_method.Value</FieldItem>
-											</Value>
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Color>
-									<Shape>
-										<Field>
-											<Value />
-										</Field>
-										<Aggregate>List</Aggregate>
-									</Shape>
-									<Size>
-										<Field>
-											<Value>
-												<FieldItem>=Count(Fields!product_item.Value)</FieldItem>
-											</Value>
-										</Field>
-										<Aggregate>None</Aggregate>
-									</Size>
-								</Encodings>
+										<DataElementOutput>Auto</DataElementOutput>
+									</SeriesItem>
+								</DataSeries>
+								<ColorSeries>
+									<Orientation>Horizontal</Orientation>
+									<Position>Top</Position>
+									<Style>
+										<PaddingBottom>20pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>20pt</PaddingRight>
+										<PaddingTop>5pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontFamily>Nirmala UI</FontFamily>
+										<FontSize>11pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<Title />
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>SeriesGroups</Mode>
+								</ColorSeries>
+								<SizeSeries>
+									<Hidden>true</Hidden>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<Title />
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<RangeOptions />
+									<Field>=Count(Fields!product_item.Value)</Field>
+									<Mode>Custom</Mode>
+								</SizeSeries>
+								<ShapeSeries>
+									<Style>
+										<PaddingBottom>2pt</PaddingBottom>
+										<PaddingLeft>2pt</PaddingLeft>
+										<PaddingRight>2pt</PaddingRight>
+										<PaddingTop>2pt</PaddingTop>
+										<FontSize>8pt</FontSize>
+									</Style>
+									<TextStyle>
+										<FontSize>8pt</FontSize>
+									</TextStyle>
+									<TitleStyle>
+										<FontSize>8pt</FontSize>
+									</TitleStyle>
+									<IconColor>Black</IconColor>
+									<MaxHeight>1</MaxHeight>
+									<MaxWidth>1</MaxWidth>
+									<Mode>Custom</Mode>
+								</ShapeSeries>
 							</Plot>
 						</Plots>
-					</DVChart>
+					</Chart>
 				</ReportItems>
 			</Body>
 			<Page>
@@ -1857,15 +1521,24 @@
 									<Value>footer-phone</Value>
 								</Image>
 							</ReportItems>
-							<CanGrow>true</CanGrow>
+							<CanGrow>false</CanGrow>
+							<Overflow>Grow</Overflow>
 						</Rectangle>
 					</ReportItems>
 				</PageFooter>
 				<ColumnSpacing>0cm</ColumnSpacing>
+				<PaperOrientation>Landscape</PaperOrientation>
 				<PageHeight>29.7cm</PageHeight>
 				<PageWidth>42cm</PageWidth>
 			</Page>
 			<Width>42cm</Width>
+			<DataElementName>ReportSection1</DataElementName>
+			<CustomProperties>
+				<CustomProperty>
+					<Name>PaperKind</Name>
+					<Value>A3Rotated</Value>
+				</CustomProperty>
+			</CustomProperties>
 		</ReportSection>
 	</ReportSections>
 	<DataElementName>AcmeStore</DataElementName>
@@ -1992,7 +1665,7 @@
 	<DataSources>
 		<DataSource Name="AcmeStore">
 			<ConnectionProperties>
-				<ConnectString>Path=AcmeStore.csv;Locale=en-US;TextQualifier=";ColumnsSeparator=,;RowsSeparator=\r\n;HasHeaders=True</ConnectString>
+				<ConnectString>Path=AcmeStore.csv;Locale=en-US;TextQualifier=";ColumnsSeparator=,;HasHeaders=True</ConnectString>
 				<DataProvider>CSV</DataProvider>
 			</ConnectionProperties>
 		</DataSource>
