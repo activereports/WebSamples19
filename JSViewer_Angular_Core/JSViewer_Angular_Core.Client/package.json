@@ -27,7 +27,7 @@
     "jest-editor-support": "*",
     "run-script-os": "*",
 
-    "@mescius/activereportsnet-viewer": "19.2.0"
+    "@mescius/activereportsnet-viewer": "19.3.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^20.3.2",
